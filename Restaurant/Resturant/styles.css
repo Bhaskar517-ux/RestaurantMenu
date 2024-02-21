@@ -1,0 +1,34 @@
+@media (min-width: 576px) {
+   
+}
+
+@media (min-width: 992px) {
+    
+}
+
+body {
+    background-color: #add8e6; /* Light Blue */
+    margin: 0;
+    padding-top: 56px; 
+   
+        
+}
+.menu-item {
+    margin-bottom: 20px; /* Adjust the value as needed for the space between items */
+}
+.form-inline input {
+    width: 950px !important; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1; /* Place the video behind other elements */
+}

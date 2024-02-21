@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- ... -->
+</head>
+
+<body>
+    <video autoplay loop muted playsinline>
+        <source src="c:\Users\91620\Downloads\pexels_videos_2431225 (2160p).mp4" type="video/mp4">
+        
+    </video>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Resturant</a>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="btn-group ml-auto">
+                <button class="btn btn-outline-primary" data-filter="all">All</button>
+                <button class="btn btn-outline-primary" data-filter="starters">Starters</button>
+                <button class="btn btn-outline-primary" data-filter="mains">Mains</button>
+                <button class="btn btn-outline-primary" data-filter="desserts">Desserts</button>
+                <button class="btn btn-outline-primary" data-filter="beverages">Beverages</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category Filter Buttons -->
+    
+
+    <!-- Menu Items -->
+    <div class="container mt-4">
+        <div class="row" id="menu-items">
+            <!-- Menu items will be dynamically inserted here using JavaScript -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for Dynamic Rendering and Filtering -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
